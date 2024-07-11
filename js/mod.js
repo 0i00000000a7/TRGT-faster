@@ -36,6 +36,7 @@ var displayThings = [
    let a= "v0.5游戏结局: e7350000 Notes！"
    if(inChallenge('r',12)&&player.devSpeed.eq(0)) a=a+"<br>你需要在Rot升级树里选择升级，并且点击升级12确定以开始挑战！"
   if(isEndgame()) a=a+"<br>已达到该版本结局！Dot硬上限：1.5e17"
+  b+="<h3>当前游戏已在全局倍率的基础上再放快了1145.14倍</h3>"
    return a+b
   }
 ]
